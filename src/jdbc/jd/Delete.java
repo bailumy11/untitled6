@@ -19,7 +19,7 @@ public class Delete {
          String sql1 ="delete from students where Stuid='123457'";
         stmt.executeUpdate(sql1);
          //删除课程信息
-        String sql2 ="delete from class where time='2.00-4.00'";
+        String sql2 ="delete from class where time='14.00-16.00'";
         stmt.executeUpdate(sql2);
             //查询
         String sql3 = "select * from students"; String sql4 ="select * from class";

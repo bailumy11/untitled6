@@ -19,7 +19,7 @@ public class Update {
             Statement stmt = conn.createStatement();
 
             //修改学生信息
-         String sql1 ="update students set Stuid='123458', name='小黄' ,Age=19,sex=0 where Stuid='123457'";
+         String sql1 ="update students set Stuid='123459', name='小彩' ,Age=19,sex=0 where Stuid='135733'";
         stmt.executeUpdate(sql1);
          // 修改课程信息
         String sql2 ="update class set Mon='物理',Tues='物理',Wed='科学',Thur='政治',Fri='语文'where time ='14.00-16.00'";
